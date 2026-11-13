@@ -983,7 +983,6 @@ class cocos2d::CCDrawNode : cocos2d::CCNodeRGBA {
     bool drawRect(cocos2d::CCRect const&, cocos2d::ccColor4F const&, float, cocos2d::ccColor4F const&, cocos2d::BorderAlignment) = imac 0x6ef6f0, m1 0x6026d0, ios 0x46d0c;
     bool drawRect(cocos2d::CCPoint const&, cocos2d::CCPoint const&, cocos2d::ccColor4F const&, float, cocos2d::ccColor4F const&, cocos2d::BorderAlignment) = imac 0x6ef780, m1 0x602764, ios 0x46da0;
     bool drawSegment(cocos2d::CCPoint const&, cocos2d::CCPoint const&, float, cocos2d::ccColor4F const&) = imac 0x6eef40, m1 0x602124, ios 0x46864;
-    bool drawSegmentEx(cocos2d::CCPoint const&, cocos2d::CCPoint const&, float, cocos2d::ccColor4F const&, bool, bool) = imac 0x6ee870, m1 0x601bec, ios 0x463ec;
     void enableDrawArea(cocos2d::CCRect&) = imac 0x6edc40, m1 0x601198, ios 0x45e9c;
     void ensureCapacity(unsigned int) = imac 0x65000, m1 0x5dd90, ios 0x45c48;
     cocos2d::ccBlendFunc getBlendFunc() const = imac 0x6efb00, m1 0x602ad4, ios 0x47100;
