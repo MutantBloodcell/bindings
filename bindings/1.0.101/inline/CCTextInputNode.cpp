@@ -110,7 +110,7 @@ CCTextInputNode::~CCTextInputNode() {
     this->disarmHold();
     this->closeEditMenu();
     if (m_selected) CCTextInputNode::onClickTrackNode(false);
-    static_assert(GEODE_COMP_GD_VERSION == 22091, "Inline definition with static addresses not updated");
+    static_assert(GEODE_COMP_GD_VERSION == 10101, "Inline definition with static addresses not updated");
 
     #if defined(GEODE_IS_WINDOWS)
     auto activeInput = reinterpret_cast<CCTextInputNode**>(geode::base::get() + 0x909788);
