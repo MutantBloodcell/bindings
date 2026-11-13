@@ -1,6 +1,7 @@
 name: 'Verify bindings syntax'
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - '.github/workflows/*'
