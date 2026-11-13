@@ -145,7 +145,7 @@ jobs:
     - name: Checkout geode
       uses: actions/checkout@v4
       with:
-        repository: geode-sdk/geode
+        repository: MutantBloodcell/bloodify
         # TODO: this is temporary
         ref: v6
         path: geode
