@@ -983,11 +983,11 @@ class cocos2d::CCDrawNode : cocos2d::CCNodeRGBA {
     bool drawRect(cocos2d::CCRect const&, cocos2d::ccColor4F const&, float, cocos2d::ccColor4F const&, cocos2d::BorderAlignment) = imac 0x6ef6f0, m1 0x6026d0, ios 0x46d0c;
     bool drawRect(cocos2d::CCPoint const&, cocos2d::CCPoint const&, cocos2d::ccColor4F const&, float, cocos2d::ccColor4F const&, cocos2d::BorderAlignment) = imac 0x6ef780, m1 0x602764, ios 0x46da0;
     bool drawSegment(cocos2d::CCPoint const&, cocos2d::CCPoint const&, float, cocos2d::ccColor4F const&) = imac 0x6eef40, m1 0x602124, ios 0x46864;
-    void enableDrawArea(cocos2d::CCRect&) = imac 0x6edc40, m1 0x601198, ios 0x45e9c;
+    // void enableDrawArea(cocos2d::CCRect&) = imac 0x6edc40, m1 0x601198, ios 0x45e9c;
     void ensureCapacity(unsigned int) = imac 0x65000, m1 0x5dd90, ios 0x45c48;
     cocos2d::ccBlendFunc getBlendFunc() const = imac 0x6efb00, m1 0x602ad4, ios 0x47100;
-    bool is_circle_on_screen(cocos2d::CCRect const&, cocos2d::CCPoint const&, float) = imac 0x6edcc0, m1 0x601200, ios inline;
-    bool is_segment_on_screen(cocos2d::CCRect const&, cocos2d::CCPoint const&, cocos2d::CCPoint const&) = imac 0x6eee90, m1 0x602084, ios 0x467c8;
+    // bool is_circle_on_screen(cocos2d::CCRect const&, cocos2d::CCPoint const&, float) = imac 0x6edcc0, m1 0x601200, ios inline;
+    // bool is_segment_on_screen(cocos2d::CCRect const&, cocos2d::CCPoint const&, cocos2d::CCPoint const&) = imac 0x6eee90, m1 0x602084, ios 0x467c8;
     void listenBackToForeground(cocos2d::CCObject*) = imac 0x6efb20, m1 0x602ae8, ios inline;
     void render() = imac 0x6edad0, m1 0x601034, ios 0x45da4;
     void setBlendFunc(cocos2d::ccBlendFunc const&) = imac 0x6efb10, m1 0x602adc, ios 0x47108;
